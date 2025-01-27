@@ -1,4 +1,4 @@
-"""VSV Applied Computing U3W2 Task 1b - Rectangle Area
+"""VSV Applied Computing U3W2 Task 1b - Area of a Rectangle
 @Author: Dylan Jong
 """
 
@@ -14,6 +14,11 @@ def area_rectangle(length: float, width: float) -> float:
     """
     return length * width
 
-area_result = area_rectangle(4, 3)
+if __name__ == "__main__":
+    # Tested with:
+    # - length = 4, width = 3
+    # - length = 6, width = 3
+    # - length = 6, width = 6
+    area_result = area_rectangle(4, 3)
 
-print(area_result)
+    print(area_result)
